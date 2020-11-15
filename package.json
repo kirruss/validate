@@ -25,7 +25,9 @@
     "publishConfig": {
         "access": "public"
     },
-    "scripts": {},
+    "scripts": {
+        "dev": "tsnd --respawn --notify=false -T sandbox/index.ts"
+    },
     "devDependencies": {
         "prettier": "^2.1.2",
         "ts-node-dev": "^1.0.0",
